@@ -1,0 +1,1 @@
+export const runLegal = () => console.log("Legal worker");

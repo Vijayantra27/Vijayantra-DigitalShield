@@ -1,0 +1,1 @@
+export const runCost = () => console.log("Cost worker");

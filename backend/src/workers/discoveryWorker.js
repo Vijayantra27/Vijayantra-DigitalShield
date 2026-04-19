@@ -1,0 +1,1 @@
+export const runDiscovery = () => console.log("Discovery worker");
