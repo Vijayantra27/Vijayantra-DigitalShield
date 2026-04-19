@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: guardian-backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: guardian
+  template:
+    metadata:
+      labels:
+        app: guardian
+    spec:
+      containers:
+        - name: backend
+          image: guardian-backend
+          ports:
+            - containerPort: 5000

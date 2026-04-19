@@ -1,0 +1,19 @@
+openapi: 3.0.0
+info:
+  title: Guardian Lens AI API
+  version: 1.0.0
+
+paths:
+  /api/v1/compare:
+    get:
+      summary: Compare content
+      responses:
+        "200":
+          description: Match result
+
+  /api/v1/legal:
+    get:
+      summary: Generate legal notice
+      responses:
+        "200":
+          description: Legal notice
